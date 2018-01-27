@@ -71,7 +71,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         public static MandatumFPSController characterController;
         public static Rigidbody character;
         public Camera MainCam;
-        public Camera MapCam;
+        private Camera OtherCam = null;
         public MovementSettings movementSettings = new MovementSettings();
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
@@ -87,11 +87,21 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
 
+        public void SetOtherCamera(Camera camera) {
+            if (OtherCam != null) {
+                OtherCam.gameObject.SetActive(false);
+            }
+            OtherCam = camera;
+            OnMainCam = false;
+            UpdateCamera();
+        }
+
+
         private void UpdateCamera() {
             //MainCam.enabled = OnMainCam;
             //MapCam.enabled = !OnMainCam;
             MainCam.gameObject.SetActive(OnMainCam);
-            MapCam.gameObject.SetActive(!OnMainCam);
+            OtherCam.gameObject.SetActive(!OnMainCam);
             mouseLook.lockCursor = OnMainCam;
         }
 

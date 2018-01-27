@@ -12,9 +12,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         public KeyCode hitKey;
         public float distance = 5f;
         private int cooldown = 0;
+        public Camera otherCamera = null;
         // Use this for initialization
         void Start() {
-
+            
         }
 
         // Update is called once per frame
@@ -22,8 +23,11 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             if (cooldown == 0) {
                 if (Input.GetKeyDown(hitKey)) {
                     Renderer renderer = GetComponent<Renderer>();
-                    if (renderer.isVisible && Vector3.Distance(MandatumFPSController.character.transform.position, renderer.transform.position) <= distance) {
-                        MandatumFPSController.characterController.OnMainCam = !MandatumFPSController.characterController.OnMainCam;
+                    var character = MandatumFPSController.character;
+                    Debug.Log(renderer + " " + character);
+                    if (renderer.isVisible && Vector3.Distance(character.transform.position, renderer.transform.position) <= distance) {
+                        MandatumFPSController.characterController.SetOtherCamera(otherCamera);
+                        MandatumFPSController.characterController.OnMainCam = false;
                         cooldown = 10;
                     } else {
                         
