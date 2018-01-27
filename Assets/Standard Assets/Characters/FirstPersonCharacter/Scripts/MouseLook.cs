@@ -57,7 +57,6 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         }
 
         public void UpdateCursorLock() {
-            Debug.Log("Update lock: " + lockCursor);
             //if the user set "lockCursor" we check & properly lock the cursos
             if (lockCursor)
                 InternalLockUpdate();
