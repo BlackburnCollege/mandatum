@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System;
 using UnityStandardAssets.CrossPlatformInput;
 using System.Collections;
@@ -92,7 +92,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             //MapCam.enabled = !OnMainCam;
             MainCam.gameObject.SetActive(OnMainCam);
             MapCam.gameObject.SetActive(!OnMainCam);
-            mouseLook.lockCursor = !OnMainCam
+            mouseLook.lockCursor = !OnMainCam;
         }
 
 
