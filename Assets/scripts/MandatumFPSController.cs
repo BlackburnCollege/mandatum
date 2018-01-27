@@ -92,7 +92,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             //MapCam.enabled = !OnMainCam;
             MainCam.gameObject.SetActive(OnMainCam);
             MapCam.gameObject.SetActive(!OnMainCam);
-            mouseLook.lockCursor = !OnMainCam;
+            mouseLook.lockCursor = OnMainCam;
         }
 
 
@@ -129,6 +129,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init(transform, MainCam.transform);
+            mouseLook.lockCursor = true;
             OnMainCam = true;
             character = m_RigidBody;
             characterController = this;
