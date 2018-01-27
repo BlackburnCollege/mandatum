@@ -7,7 +7,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Characters.FirstPerson {
     [RequireComponent(typeof(Collider))]
-    public class MapCameraButton : MonoBehaviour {
+    public class RadioControl : MonoBehaviour {
 
         public KeyCode hitKey;
         public float distance = 5f;
