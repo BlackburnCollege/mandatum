@@ -1,13 +1,14 @@
-using System;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Utility;
 
 namespace UnityStandardAssets.Characters.FirstPerson {
-    public class HeadBob : MonoBehaviour {
+    public class MandatumHeadBob : MonoBehaviour {
         public Camera Camera;
         public CurveControlledBob motionBob = new CurveControlledBob();
         public LerpControlledBob jumpAndLandingBob = new LerpControlledBob();
-        public RigidbodyFirstPersonController rigidbodyFirstPersonController;
+        public MandatumFPSController rigidbodyFirstPersonController;
         public float StrideInterval;
         [Range(0f, 1f)] public float RunningStrideLengthen;
 

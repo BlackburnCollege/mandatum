@@ -1,11 +1,11 @@
+﻿using UnityEngine;
 using System;
-using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using System.Collections;
 
 namespace UnityStandardAssets.Characters.FirstPerson {
-    [RequireComponent(typeof(Rigidbody))]
-    [RequireComponent(typeof(CapsuleCollider))]
-    public class RigidbodyFirstPersonController : MonoBehaviour {
+    public class MandatumFPSController : MonoBehaviour {
+
         [Serializable]
         public class MovementSettings {
             public float ForwardSpeed = 8.0f;   // Speed when walking forward
@@ -68,17 +68,32 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         }
 
 
-        public Camera cam;
+        public static MandatumFPSController characterController;
+        public static Rigidbody character;
+        public Camera MainCam;
+        public Camera MapCam;
         public MovementSettings movementSettings = new MovementSettings();
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
 
-
+        private bool onMainCam = true;
+        public bool OnMainCam {
+            get { return onMainCam; }
+            set { onMainCam = value; UpdateCamera(); }
+        }
         private Rigidbody m_RigidBody;
         private CapsuleCollider m_Capsule;
         private float m_YRotation;
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
+
+        private void UpdateCamera() {
+            //MainCam.enabled = OnMainCam;
+            //MapCam.enabled = !OnMainCam;
+            MainCam.gameObject.SetActive(OnMainCam);
+            MapCam.gameObject.SetActive(!OnMainCam);
+            mouseLook.lockCursor = !OnMainCam
+        }
 
 
         public Vector3 Velocity {
@@ -113,7 +128,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         private void Start() {
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
-            mouseLook.Init(transform, cam.transform);
+            mouseLook.Init(transform, MainCam.transform);
+            OnMainCam = true;
+            character = m_RigidBody;
+            characterController = this;
         }
 
 
@@ -132,7 +150,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
 
             if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && (advancedSettings.airControl || m_IsGrounded)) {
                 // always move along the camera forward as it is the direction that it being aimed at
-                Vector3 desiredMove = cam.transform.forward * input.y + cam.transform.right * input.x;
+                Vector3 desiredMove = MainCam.transform.forward * input.y + MainCam.transform.right * input.x;
                 desiredMove = Vector3.ProjectOnPlane(desiredMove, m_GroundContactNormal).normalized;
 
                 desiredMove.x = desiredMove.x * movementSettings.CurrentTargetSpeed;
@@ -204,7 +222,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             // get the rotation before it's changed
             float oldYRotation = transform.eulerAngles.y;
 
-            mouseLook.LookRotation(transform, cam.transform);
+            mouseLook.LookRotation(transform, MainCam.transform);
 
             if (m_IsGrounded || advancedSettings.airControl) {
                 // Rotate the rigidbody velocity to match the new direction that the character is looking
