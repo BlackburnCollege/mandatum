@@ -4,12 +4,11 @@ using UnityEngine;
 using UnityEngine.Video;
 
 [RequireComponent(typeof(VideoPlayer))]
-[RequireComponent(typeof(Plane))]
 [RequireComponent(typeof(MeshRenderer))]
+
 public class EasterEggMovie : MonoBehaviour {
 
     VideoPlayer player;
-    Plane plane;
     public Transform character;
     //Material meshMaterial;
 
@@ -17,7 +16,7 @@ public class EasterEggMovie : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GetComponent<VideoPlayer>();
-        plane = GetComponent<Plane>();
+        
         character = GetComponent<Transform>();
         //meshMaterial = GetComponent<MeshRenderer>().material;
     }
@@ -35,12 +34,12 @@ public class EasterEggMovie : MonoBehaviour {
             var newColor = new Color(color.r, color.g, color.b, Mathf.Clamp(((float) alpha) / 60.0f, 0.0f, 1.0f));
             material.color = newColor;
         } else {
-            var distance = plane.GetDistanceToPoint(character.position);
+            var distance = Vector3.Distance(gameObject.transform.position, character.position);
             var input = Input.GetKey(KeyCode.R);
             Debug.Log(input);
             if (input) {
                 Debug.Log(distance);
-                if (distance >= 0 && distance <= 5) {
+                if (distance <= 5) {
                     player.isLooping = true;
                     player.Play();
 
