@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
-
+using UnityStandardAssets.Characters.FirstPerson;
 
 [RequireComponent(typeof(Collider))]
 public class RadioControl : MonoBehaviour
@@ -27,7 +27,7 @@ public class RadioControl : MonoBehaviour
                 Renderer renderer = GetComponent<Renderer>();
                 if (renderer.isVisible && Vector3.Distance(MandatumFPSController.character.transform.position, renderer.transform.position) <= distance)
                 {
-                    MandatumFPSController.characterController.OnMainCam = !MandatumFPSController.characterController.OnMainCam;
+                    //MandatumFPSController.characterController.OnMainCam = !MandatumFPSController.characterController.OnMainCam;
                     cooldown = 10;
                 }
                 else
