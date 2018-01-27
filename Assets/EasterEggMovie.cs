@@ -36,9 +36,9 @@ public class EasterEggMovie : MonoBehaviour {
         } else {
             var distance = Vector3.Distance(gameObject.transform.position, character.position);
             var input = Input.GetKey(KeyCode.R);
-            Debug.Log(input);
+            
             if (input) {
-                Debug.Log(distance);
+                
                 if (distance <= 5) {
                     player.isLooping = true;
                     player.Play();
