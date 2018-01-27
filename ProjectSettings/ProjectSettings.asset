@@ -501,7 +501,6 @@ PlayerSettings:
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
   additionalIl2CppArgs::additionalIl2CppArgs: 
-  cloudProjectId: 0155312d-9763-4dfc-aba0-a861fbe5df25
   projectName: Mandatum
-  organizationId: lucas_burdell
   cloudEnabled: 0
+  	
