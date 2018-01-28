@@ -7,7 +7,8 @@ public class LittleManAnimationScript : MonoBehaviour
 
     private Vector3 destination;
     private bool moving = false;
-    public float moveSpeed = 0.5f; 
+    public float moveSpeed = 0.5f;
+
 
     // Use this for initialization
     void Start()
