@@ -1,63 +1,19 @@
 fileFormatVersion: 2
-guid: 218cf13fdda58a94485766f6667f4b94
-timeCreated: 1517103199
+guid: 3f8e307441f1bdf489c9aea728ba6175
+timeCreated: 1517103790
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: LookOutTower
-    100004: MainChurch
-    100006: MainChurch1
-    100008: MainChurch2
-    100010: MainChurch3
-    100012: pCube1
-    100014: pCube2
-    100016: pCube3
-    100018: pCube4
-    100020: pCube5
-    100022: TowerMain
-    100024: transform1
-    100026: transform10
-    100028: transform2
-    100030: transform3
-    100032: transform4
-    100034: transform5
-    100036: transform6
-    100038: transform7
-    100040: transform8
-    100042: transform9
     400000: //RootNode
-    400002: LookOutTower
-    400004: MainChurch
-    400006: MainChurch1
-    400008: MainChurch2
-    400010: MainChurch3
-    400012: pCube1
-    400014: pCube2
-    400016: pCube3
-    400018: pCube4
-    400020: pCube5
-    400022: TowerMain
-    400024: transform1
-    400026: transform10
-    400028: transform2
-    400030: transform3
-    400032: transform4
-    400034: transform5
-    400036: transform6
-    400038: transform7
-    400040: transform8
-    400042: transform9
-    2100000: HouseColor1
-    2100002: Roof.004
-    2100004: HouseColor2
-    2100006: Window.004
-    2100008: Door
-    2100010: SideWalk
-    2300000: pCube5
-    3300000: pCube5
-    4300000: pCube5
+    2100000: lambert1.002
+    2100002: Roof.005
+    2100004: Material.004
+    2100006: Window.005
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube1.003
   externalObjects: {}
   materials:
     importMaterials: 1
