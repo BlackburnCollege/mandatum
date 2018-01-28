@@ -71,7 +71,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         public static MandatumFPSController characterController;
         public static Rigidbody character;
         public Camera MainCam;
-        private Camera OtherCam = null;
+        public Camera OtherCam = null;
         public MovementSettings movementSettings = new MovementSettings();
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
@@ -92,7 +92,6 @@ namespace UnityStandardAssets.Characters.FirstPerson {
                 OtherCam.gameObject.SetActive(false);
             }
             OtherCam = camera;
-            OnMainCam = false;
             UpdateCamera();
         }
 
@@ -100,9 +99,14 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         private void UpdateCamera() {
             //MainCam.enabled = OnMainCam;
             //MapCam.enabled = !OnMainCam;
+            
+            if (OtherCam != null) {
+                OtherCam.gameObject.SetActive(!OnMainCam);
+            }
             MainCam.gameObject.SetActive(OnMainCam);
-            OtherCam.gameObject.SetActive(!OnMainCam);
+
             mouseLook.lockCursor = OnMainCam;
+            mouseLook.UpdateCursorLock();
         }
 
 
@@ -141,8 +145,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             mouseLook.Init(transform, MainCam.transform);
             mouseLook.lockCursor = true;
             OnMainCam = true;
-            character = m_RigidBody;
-            characterController = this;
+            MandatumFPSController.character = GetComponent<Rigidbody>();
+            MandatumFPSController.characterController = this;
         }
 
 
