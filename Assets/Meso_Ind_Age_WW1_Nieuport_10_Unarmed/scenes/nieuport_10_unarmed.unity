@@ -1,0 +1,1388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &107096442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 172412, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 107096443}
+  - component: {fileID: 107096445}
+  - component: {fileID: 107096444}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Wing_Left_Flap_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &107096443
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401956, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 107096442}
+  m_LocalRotation: {x: 0, y: 0, z: -0.026176952, w: 0.99965733}
+  m_LocalPosition: {x: -2.9995883, y: 0.88078886, z: 0.9731872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &107096444
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2341752, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 107096442}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &107096445
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3381784, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 107096442}
+  m_Mesh: {fileID: 4300008, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &239969240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 193968, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 239969241}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_HelperA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &239969241
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 446474, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 239969240}
+  m_LocalRotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+  m_LocalPosition: {x: 0.00000017520739, y: 3.0915222, z: 0.06114624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &309484607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 186524, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 309484608}
+  - component: {fileID: 309484610}
+  - component: {fileID: 309484609}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Wing_Right_Flap_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309484608
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 438048, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 309484607}
+  m_LocalRotation: {x: 0, y: 0, z: 0.02617704, w: 0.99965733}
+  m_LocalPosition: {x: 2.9995883, y: 0.88078886, z: 0.9731872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &309484609
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2345860, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 309484607}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &309484610
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3387480, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 309484607}
+  m_Mesh: {fileID: 4300010, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &325054203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 191564, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 325054204}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Rudder_HelperA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325054204
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490810, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 325054203}
+  m_LocalRotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+  m_LocalPosition: {x: -0.000000492529, y: 4.7815223, z: 0.35114622}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &494884403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 138794, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 494884404}
+  - component: {fileID: 494884405}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Rudder_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494884404
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 448214, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 494884403}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00000017520739, y: 1.5888538, z: -1.5784777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1457893332}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &494884405
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13769546, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 494884403}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300022, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+  m_Bones:
+  - {fileID: 325054204}
+  - {fileID: 1757368073}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1757368073}
+  m_AABB:
+    m_Center: {x: -0.23263551, y: 0.0028347964, z: 0.0000005364418}
+    m_Extent: {x: 0.19654332, y: 0.006062319, z: 0.22123869}
+  m_DirtyAABB: 0
+--- !u!1 &594170813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 594170815}
+  - component: {fileID: 594170814}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &594170814
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594170813}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &594170815
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594170813}
+  m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &729600329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 117862, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 729600330}
+  - component: {fileID: 729600332}
+  - component: {fileID: 729600331}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Wheels_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729600330
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 453092, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 729600329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -1.200489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &729600331
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2337062, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 729600329}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &729600332
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3342958, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 729600329}
+  m_Mesh: {fileID: 4300014, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &838253312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 159410, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 838253313}
+  - component: {fileID: 838253315}
+  - component: {fileID: 838253314}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Tail_Rudder_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &838253313
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 443692, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 838253312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00000036558606, y: 5.129685, z: 0.61297756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1757368073}
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &838253314
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2322614, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 838253312}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &838253315
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3377270, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 838253312}
+  m_Mesh: {fileID: 4300004, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &1229554056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 186534, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1229554057}
+  - component: {fileID: 1229554059}
+  - component: {fileID: 1229554058}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Tailskid_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1229554057
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 422596, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1229554056}
+  m_LocalRotation: {x: -0.1908091, y: 0, z: -0, w: 0.98162717}
+  m_LocalPosition: {x: -0.00000044320433, y: 4.449771, z: 0.0756784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1229554058
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2396696, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1229554056}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1229554059
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3335528, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1229554056}
+  m_Mesh: {fileID: 4300016, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &1230683962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 178700, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1230683963}
+  - component: {fileID: 1230683965}
+  - component: {fileID: 1230683964}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Propeller_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1230683963
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414854, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1230683962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000000024884939, y: -0.92186826, z: -0.00000030517577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1230683964
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2322278, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1230683962}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1230683965
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3376206, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1230683962}
+  m_Mesh: {fileID: 4300012, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &1293628408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 115436, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1293628409}
+  - component: {fileID: 1293628410}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Left_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293628409
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 415110, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1293628408}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00000017520739, y: 1.5888538, z: -1.5784777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1457893332}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1293628410
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13797420, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1293628408}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300020, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+  m_Bones:
+  - {fileID: 239969241}
+  - {fileID: 1900176045}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1900176045}
+  m_AABB:
+    m_Center: {x: -1.0649453, y: -0.15117419, z: 0.2033391}
+    m_Extent: {x: 1.0828778, y: 0.27153882, z: 0.2002402}
+  m_DirtyAABB: 0
+--- !u!1001 &1335038119
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_RootGameObject: {fileID: 1457893331}
+  m_IsPrefabParent: 0
+--- !u!1 &1449426440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1449426445}
+  - component: {fileID: 1449426444}
+  - component: {fileID: 1449426443}
+  - component: {fileID: 1449426442}
+  - component: {fileID: 1449426441}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1449426441
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449426440}
+  m_Enabled: 1
+--- !u!124 &1449426442
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449426440}
+  m_Enabled: 1
+--- !u!92 &1449426443
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449426440}
+  m_Enabled: 1
+--- !u!20 &1449426444
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449426440}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1449426445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449426440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1457893331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 146572, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1457893332}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Unarmed_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457893332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 494320, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1457893331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1592030867}
+  - {fileID: 1293628409}
+  - {fileID: 1953950830}
+  - {fileID: 494884404}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1584298916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 183354, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1584298917}
+  - component: {fileID: 1584298919}
+  - component: {fileID: 1584298918}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Tail_Left_Flap_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1584298917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 465326, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1584298916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.82451475, y: 5.065125, z: 0.42503235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1900176045}
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1584298918
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2378140, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1584298916}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1584298919
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3319722, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1584298916}
+  m_Mesh: {fileID: 4300002, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &1592030866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 151692, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1592030867}
+  - component: {fileID: 1592030869}
+  - component: {fileID: 1592030868}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Body_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1592030867
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 415914, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1592030866}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00000017520739, y: 1.555, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 239969241}
+  - {fileID: 325054204}
+  - {fileID: 1230683963}
+  - {fileID: 1584298917}
+  - {fileID: 1893492569}
+  - {fileID: 838253313}
+  - {fileID: 1229554057}
+  - {fileID: 729600330}
+  - {fileID: 107096443}
+  - {fileID: 309484608}
+  m_Father: {fileID: 1457893332}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1592030868
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2373268, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1592030866}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1592030869
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3391328, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1592030866}
+  m_Mesh: {fileID: 4300000, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &1653186884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100106, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1653186885}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Right_HelperA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1653186885
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 451152, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1653186884}
+  m_LocalRotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+  m_LocalPosition: {x: -0.2245137, y: 0.036396485, z: -0.013886108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1893492569}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1757368072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173822, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1757368073}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Rudder_HelperB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757368073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 443090, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1757368072}
+  m_LocalRotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+  m_LocalPosition: {x: -0.00000014387591, y: 0.041837156, z: -0.26183167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 838253313}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1893492568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173552, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1893492569}
+  - component: {fileID: 1893492571}
+  - component: {fileID: 1893492570}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Tail_Right_Flap_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1893492569
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408442, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1893492568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.82451385, y: 5.065125, z: 0.42503235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1653186885}
+  m_Father: {fileID: 1592030867}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1893492570
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2360168, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1893492568}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1893492571
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3309120, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1893492568}
+  m_Mesh: {fileID: 4300006, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+--- !u!1 &1900176044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 148560, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1900176045}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Left_HelperB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900176045
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 438012, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1900176044}
+  m_LocalRotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+  m_LocalPosition: {x: 0.22451489, y: 0.024396973, z: -0.013886108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1584298917}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1953950829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 191046, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1953950830}
+  - component: {fileID: 1953950831}
+  m_Layer: 0
+  m_Name: Airplane_Nieuport_10_Cable_Tail_Right_UV01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1953950830
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 421048, guid: 71bb40352237b1b42a5c555133dbf475, type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1953950829}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00000017520739, y: 1.5888538, z: -1.5784777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1457893332}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1953950831
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13748114, guid: 71bb40352237b1b42a5c555133dbf475,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335038119}
+  m_GameObject: {fileID: 1953950829}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2d7b44e65205b274da07101205c24b52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300018, guid: 79a5b154fed2da64e9f1c2f43900013a, type: 3}
+  m_Bones:
+  - {fileID: 239969241}
+  - {fileID: 1653186885}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1653186885}
+  m_AABB:
+    m_Center: {x: -1.0769448, y: -0.15117411, z: -0.20333989}
+    m_Extent: {x: 1.0828772, y: 0.27153844, z: 0.20024069}
+  m_DirtyAABB: 0
