@@ -97,14 +97,14 @@ MonoBehaviour:
       logMin: -8
       logMax: 4
   bloom:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       bloom:
         intensity: 0.5
         threshold: 1.1
-        softKnee: 0.5
-        radius: 4
-        antiFlicker: 0
+        softKnee: 0.511
+        radius: 4.5
+        antiFlicker: 1
       lensDirt:
         texture: {fileID: 0}
         intensity: 3
@@ -289,7 +289,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       colored: 1
-      intensity: 0.493
+      intensity: 0.244
       size: 0.84
       luminanceContribution: 1
   vignette:
@@ -309,12 +309,12 @@ MonoBehaviour:
   monitors:
     currentMonitorID: 0
     refreshOnPlay: 0
-    histogramMode: 3
+    histogramMode: 0
     waveformExposure: 0.12
-    waveformY: 0
-    waveformR: 1
-    waveformG: 1
-    waveformB: 1
+    waveformY: 1
+    waveformR: 0
+    waveformG: 0
+    waveformB: 0
     paradeExposure: 0.12
     vectorscopeExposure: 0.12
     vectorscopeShowBackground: 1

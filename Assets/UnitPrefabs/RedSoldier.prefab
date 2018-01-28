@@ -321,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4657224884317040}
   - component: {fileID: 95697483632100524}
+  - component: {fileID: 114512320485771108}
   m_Layer: 0
   m_Name: RedSoldier
   m_TagString: Untagged
@@ -634,7 +635,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1808209934145138}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.529227, y: 2.364, z: 0.36978596}
+  m_LocalPosition: {x: 0.14953065, y: 0.29579854, z: -3.4629772}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 4276496044467914}
@@ -813,6 +814,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114512320485771108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808209934145138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e706dc017a73c4348a869591fbb9dcb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
 --- !u!137 &137386977013007958
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace mandatum {
-    public class Unit : MonoBehaviour {
+    public abstract class Unit : MonoBehaviour {
         public int damage = 1;
         public int health = 10;
         public int speed = 2;
@@ -18,7 +18,8 @@ namespace mandatum {
             }
         }
 
-        virtual void 
+        public abstract int[] GetDamage(Unit other);
+        public abstract void killUnit();
 
         // Use this for initialization
         void Start() {

@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4370300333444968}
   - component: {fileID: 95257962030881924}
+  - component: {fileID: 114886168145610692}
   m_Layer: 0
   m_Name: RedTank
   m_TagString: Untagged
@@ -379,3 +380,15 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114886168145610692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554756997201384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce89ac8b8f6beb64eb268eb97cf26742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
