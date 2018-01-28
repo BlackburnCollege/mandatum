@@ -6,8 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 
 namespace UnityStandardAssets.Characters.FirstPerson {
-    [RequireComponent(typeof(Collider))]
-    public class RadioControl : MonoBehaviour {
+    public class MapCameraButton : MonoBehaviour {
 
         public KeyCode hitKey;
         public float distance = 5f;
@@ -15,7 +14,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         public Camera otherCamera = null;
         // Use this for initialization
         void Start() {
-            
+
         }
 
         // Update is called once per frame
@@ -23,14 +22,23 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             if (cooldown == 0) {
                 if (Input.GetKeyDown(hitKey)) {
                     Renderer renderer = GetComponent<Renderer>();
-                    var character = MandatumFPSController.character;
-                    Debug.Log(renderer + " " + character);
-                    if (renderer.isVisible && Vector3.Distance(character.transform.position, renderer.transform.position) <= distance) {
-                        MandatumFPSController.characterController.SetOtherCamera(otherCamera);
-                        MandatumFPSController.characterController.OnMainCam = false;
+                    Rigidbody character = MandatumFPSController.character;
+                    Debug.Log("distance from player to " + otherCamera + ": " + Mathf.Abs(Vector3.Distance(character.transform.position, renderer.transform.position)));
+                    if (renderer.isVisible && Mathf.Abs(Vector3.Distance(character.transform.position, renderer.transform.position)) <= distance) {
+                        Debug.Log("Setting camera for " + otherCamera);
+                        if (!MandatumFPSController.characterController.OnMainCam) {
+                            MandatumFPSController.characterController.SetOtherCamera(null);
+                            MandatumFPSController.characterController.OnMainCam = true;
+                        } else {
+                            MandatumFPSController.characterController.SetOtherCamera(otherCamera);
+                            MandatumFPSController.characterController.OnMainCam = false;
+                        }
                         cooldown = 10;
                     } else {
-                        
+                        if (!MandatumFPSController.characterController.OnMainCam && MandatumFPSController.characterController.OtherCam == otherCamera) {
+                            MandatumFPSController.characterController.SetOtherCamera(null);
+                            MandatumFPSController.characterController.OnMainCam = true;
+                        }
                     }
                 }
             } else {
